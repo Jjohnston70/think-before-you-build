@@ -1,0 +1,18 @@
+{
+  "name": "think-before-you-build",
+  "version": "1.0.0",
+  "description": "Two thinking tools for operators: the Bearing Check pressure-tests a decision before you commit resources, and the World Model Mapper finds the gaps in a process or system before you build or fix it.",
+  "author": {
+    "name": "True North Data Strategies LLC",
+    "url": "https://truenorthstrategyops.com"
+  },
+  "homepage": "https://truenorthstrategyops.com",
+  "keywords": [
+    "decision-making",
+    "process-mapping",
+    "gap-analysis",
+    "survivorship-bias",
+    "operations"
+  ],
+  "license": "MIT"
+}
