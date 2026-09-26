@@ -1,6 +1,6 @@
 ---
 name: bearing-check
-description: "The Bearing Check: an eight-checkpoint decision framework for validating strategies, investments, career moves, and life choices before committing resources. Use when analyzing 'should I do X' questions, evaluating success stories or advice, vetting business strategies, assessing opportunities with uncertainty, or when the user wants to avoid survivorship bias and think probabilistically. Triggers on phrases like 'should I', 'is this a good idea', 'evaluate this strategy', 'what are the risks', 'copy this approach', 'run a bearing check', or requests to pressure-test a decision."
+description: "The Bearing Check: an eight-checkpoint framework for pressure-testing a significant decision before committing money, time, or career capital (base rates, failure cases, mechanism, durable factors, odds, constraint fit, staged testing, pre-mortem). Use only when the user explicitly asks to run a bearing check, pressure-test or stress-test a decision, or check a plan for survivorship bias, or when they are weighing a major commitment (career change, large investment, business bet, partnership, key hire, copying another person's or company's strategy) and ask for a structured risk review. Do not use for everyday choices, quick recommendations, product comparisons, or factual questions."
 metadata:
   document_id: TNDS-PUB-020
   title: "The Bearing Check"

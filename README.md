@@ -37,7 +37,7 @@ Once it is listed in the Claude plugin directory: in Claude Code, open `/plugin`
 
 ## How to use it
 
-Ask Claude "run a bearing check on [decision]" or "map this process: [process]." Both skills also trigger on everyday phrasing like "should I" or "where are the gaps in this workflow."
+Ask Claude "run a bearing check on [decision]" or "map this process: [process]." Each skill is scoped to its job: the Bearing Check responds when you ask for a structured review of a significant decision, and the World Model Mapper when you ask to map or diagnose an operational process or system. Everyday questions are left to Claude's normal answers.
 
 ## Credits
 
@@ -57,7 +57,7 @@ The Bearing Check synthesizes established ideas from decision theory and behavio
 | Problem | Fix |
 |---|---|
 | The skill does not kick in | Ask for it by name: "Run a bearing check on..." or "Use the world-model-mapper skill on..." Then confirm the plugin is installed and enabled (in Claude Code, run `/plugin`). |
-| The wrong skill answers | Name the one you want. "Should I" questions belong to the Bearing Check; "what should this system track" belongs to the World Model Mapper. |
+| The wrong skill answers | Name the one you want. Structured reviews of a decision belong to the Bearing Check; mapping or diagnosing a process or system belongs to the World Model Mapper. |
 | A base rate appears with no source or date | Ask for the source and the date on the page. If Claude cannot search, turn on web search or supply the number yourself. The skill treats an unsourced rate as unconfirmed. |
 | The mapping feels too abstract | Give one concrete case: "Walk through what happened the last time a job ran late." The framework works best on a specific event. |
 | The Mermaid diagram in the output template shows as plain text | Your viewer does not render Mermaid. GitHub, VS Code with a Mermaid extension, and most Markdown tools that support Mermaid will draw it. |

@@ -35,14 +35,14 @@ The framework synthesizes concepts from statistical decision theory, behavioral 
 
 ## How to Use It
 
-Install the plugin, then ask Claude about a decision. The skill triggers on phrases like:
+Install the plugin, then ask for it. The skill is scoped to structured reviews of significant decisions, so it answers requests like:
 
-- "Should I..."
-- "Is this a good idea..."
-- "Help me decide..."
-- "Evaluate this strategy..."
-- "What are the risks of..."
 - "Run a bearing check on..."
+- "Pressure-test my decision to..."
+- "Stress-test my plan to..."
+- "Am I falling for survivorship bias by copying..."
+
+You can also describe a major commitment, such as a career change, a large investment, or a strategy you want to copy, and ask for a structured risk review. Everyday choices and quick recommendations are deliberately left to Claude's normal answers.
 
 You can also use `references/checkpoints.md` on its own as a personal checklist.
 

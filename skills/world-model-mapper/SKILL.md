@@ -1,6 +1,6 @@
 ---
 name: world-model-mapper
-description: "Guided framework for mapping a business process, system, or tool against world model principles. Use when analyzing how an operation actually runs, designing a new system or tool, or diagnosing one nobody uses, to reveal gaps in state capture, action mapping, transition modeling, and feedback loops. Triggers on phrases like 'map this process,' 'analyze this system,' 'find the gaps,' 'world model analysis,' 'state space mapping,' 'why isn't this system working,' or 'what should this tool track.'"
+description: "Guided five-phase framework for mapping an operational business process or system: the state it tracks, the decisions it drives, the predictions it makes, and its feedback loops, ending in a prioritized gap report and one next step. Use when the user asks to map a business process against world model principles, run a world model or state-space analysis, audit what an operational process or tool tracks versus what it should track, or diagnose why an operational system or dashboard is not being used. Do not use for debugging code, general brainstorming, or questions about a single metric."
 metadata:
   document_id: TNDS-PUB-010
   title: "World Model Mapper"

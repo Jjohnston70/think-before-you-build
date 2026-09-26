@@ -47,20 +47,18 @@ This skill helps you think like you're building a system that understands physic
 
 Before you change a process, run it through this framework. The gap report tells you what to fix first and becomes the scope of the work.
 
-Trigger phrases:
-- "Let's map this process"
-- "Analyze this system against world model principles"
-- "Where are the gaps in this workflow?"
-- "What state are we missing?"
+Example requests:
+- "Map this process against world model principles: [process]"
+- "Run a world model analysis on how we [process]"
+- "What state is this process missing?"
 
 **When Designing a New System or Tool**
 
 Before building a tracker, dashboard, or automation, use this to make sure you capture the right state, map the right actions, and close the feedback loops.
 
-Trigger phrases:
-- "Help me design a system for [process]"
-- "What should this tool track?"
-- "How do I close the loop on this?"
+Example requests:
+- "Map the state and feedback loops for the [system] we're about to build"
+- "What should this operational tool track?"
 
 **When Debugging Existing Systems**
 
@@ -69,10 +67,9 @@ If a system isn't delivering value or people aren't using it, the framework help
 - Actions aren't mapped to the state that triggers them
 - No feedback tells you if the system is working
 
-Trigger phrases:
-- "Why isn't this working?"
-- "What's missing from this system?"
-- "Nobody is using this, diagnose it"
+Example requests:
+- "Nobody is using this dashboard. Diagnose it with the world model framework"
+- "Why isn't this operational system changing any decisions?"
 
 **For Teaching**
 
