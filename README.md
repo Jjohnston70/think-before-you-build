@@ -43,6 +43,32 @@ Ask Claude "run a bearing check on [decision]" or "map this process: [process]."
 
 The Bearing Check synthesizes established ideas from decision theory and behavioral economics; its original eight-step structure was inspired by an article in the Data Science Collective on Medium. The World Model Mapper applies Yann LeCun's case for world models to business operations.
 
+## Example prompts
+
+| Prompt | Skill |
+|---|---|
+| "Run a bearing check on quitting my job to consult full time." | The Bearing Check, full pass |
+| "Quick bearing check: should I copy my competitor's free-trial offer?" | The Bearing Check, checkpoints 1, 5, 7 |
+| "Map this process: how we schedule and dispatch jobs, from customer call to completed work." | World Model Mapper |
+| "Our team stopped using the dashboard we built. Diagnose it." | World Model Mapper, debugging mode |
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The skill does not kick in | Ask for it by name: "Run a bearing check on..." or "Use the world-model-mapper skill on..." Then confirm the plugin is installed and enabled (in Claude Code, run `/plugin`). |
+| The wrong skill answers | Name the one you want. "Should I" questions belong to the Bearing Check; "what should this system track" belongs to the World Model Mapper. |
+| A base rate appears with no source or date | Ask for the source and the date on the page. If Claude cannot search, turn on web search or supply the number yourself. The skill treats an unsourced rate as unconfirmed. |
+| The mapping feels too abstract | Give one concrete case: "Walk through what happened the last time a job ran late." The framework works best on a specific event. |
+| The Mermaid diagram in the output template shows as plain text | Your viewer does not render Mermaid. GitHub, VS Code with a Mermaid extension, and most Markdown tools that support Mermaid will draw it. |
+
+## Support
+
+| Need | Where |
+|---|---|
+| Bug, wrong behavior, or a question | Open an issue at https://github.com/Jjohnston70/think-before-you-build/issues |
+| Security or privacy concern | Email jacob@truenorthstrategyops.com with "Security" in the subject; please do not open a public issue |
+
 ## License
 
 MIT. See `LICENSE`.
